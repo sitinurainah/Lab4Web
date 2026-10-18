@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tentang profil, keahlian, dan portfolio kami.">
+    <title>About | Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Layout Sederhana</h1>
+    </header>
+    <nav aria-label="Navigasi utama">
+        <a href="home.html">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html" class="active" aria-current="page">About</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <main class="page-content">
+        <section class="about-intro">
+            <p class="eyebrow">KENALI KAMI</p>
+            <h2>Tentang Kami</h2>
+            <p class="lead">Kami adalah tim kreatif yang senang mengubah ide menjadi pengalaman digital yang sederhana, bermanfaat, dan mudah digunakan.</p>
+        </section>
+
+        <section class="about-section" aria-labelledby="profile-title">
+            <h2 id="profile-title">Profil</h2>
+            <p>Kami berfokus pada pembuatan website yang mengutamakan kebutuhan pengguna. Dalam setiap proyek, kami menggabungkan perencanaan yang matang, desain yang jelas, dan implementasi yang dapat diandalkan.</p>
+        </section>
+
+        <section class="about-section" aria-labelledby="services-title">
+            <h2 id="services-title">Keahlian</h2>
+            <div class="portfolio-grid">
+                <article class="portfolio-card">
+                    <span class="portfolio-number">01</span>
+                    <h3>Desain Web</h3>
+                    <p>Merancang tampilan yang rapi, responsif, dan nyaman digunakan di berbagai perangkat.</p>
+                </article>
+                <article class="portfolio-card">
+                    <span class="portfolio-number">02</span>
+                    <h3>Pengembangan</h3>
+                    <p>Membangun halaman web dengan struktur yang baik dan perhatian pada detail.</p>
+                </article>
+                <article class="portfolio-card">
+                    <span class="portfolio-number">03</span>
+                    <h3>Konten Digital</h3>
+                    <p>Menyusun konten yang informatif agar pesan dan tujuan website tersampaikan.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-section" aria-labelledby="portfolio-title">
+            <h2 id="portfolio-title">Portfolio Pilihan</h2>
+            <div class="portfolio-grid">
+                <article class="portfolio-card portfolio-project">
+                    <h3>Website Profil</h3>
+                    <p>Website profil responsif untuk memperkenalkan organisasi dan layanannya.</p>
+                    <span class="project-tag">Website</span>
+                </article>
+                <article class="portfolio-card portfolio-project">
+                    <h3>Katalog Produk</h3>
+                    <p>Katalog digital dengan navigasi sederhana untuk membantu pelanggan menemukan produk.</p>
+                    <span class="project-tag">Katalog</span>
+                </article>
+                <article class="portfolio-card portfolio-project">
+                    <h3>Halaman Kampanye</h3>
+                    <p>Halaman informasi yang berfokus pada satu pesan dan ajakan bertindak.</p>
+                    <span class="project-tag">Landing page</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-cta">
+            <div>
+                <h2>Punya ide untuk dikerjakan bersama?</h2>
+                <p>Ceritakan kebutuhan atau proyek yang sedang kamu rencanakan.</p>
+            </div>
+            <a class="button-link" href="kontak.html">Hubungi Kami</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Universitas Pelita Bangsa</p>
+    </footer>
+</div>
+</body>
+</html>
